@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require "fitbit2withings"
+require "dotenv"
+
+Dotenv.load
+
+fb = Fitbit2withings::FitbitClient.new
+puts fb.weight
+puts fb.fat
+
+exit unless fb.weight
+withings = Fitbit2withings::WithingsClient.new
+withings.login
+withings.save(fb.weight, fb.fat)
+puts "finish"

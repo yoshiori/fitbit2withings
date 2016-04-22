@@ -1,0 +1,5 @@
+o:Fitgem::Client:@consumer_keyI"%b8e90a148960ca33d3da81a523739da6:ET:@consumer_secretI"%c207f428435e21d7b5609fe89c503998;T:@tokenI"%cc3b76d16fb7cbb5784371dd0f740bf8;T:@secretI"%acd8d12c87cfacdae263b16e1914afd6;T:@user_idI"-;T:@api_unit_systemI"
+en_US;T:@api_versionI"1;T:@api_localeI"
+en_US;T:@consumerU:OAuth::Consumer{:key@:secret@:options{:signature_methodI"HMAC-SHA1;T:request_token_pathI"/oauth/request_token;T:authorize_pathI"/oauth/authorize;T:access_token_pathI"/oauth/access_token;T:
+proxy0:scheme:header:http_method:	post:oauth_versionI"1.0;T:	siteI"https://api.fitbit.com;T:authorize_urlI"+https://www.fitbit.com/oauth/authorize;T:@access_tokeno:OAuth::AccessToken	;	@;
+@	;@:@params{:oauth_token@I"oauth_token;T@:oauth_token_secret@	I"oauth_token_secret;T@	:encoded_user_idI"2726VB;TI"encoded_user_id;T@
