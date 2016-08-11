@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "fitgem"
+  spec.add_dependency "oauth2"
   spec.add_dependency "dotenv"
   spec.add_dependency "capybara"
   spec.add_dependency "poltergeist"

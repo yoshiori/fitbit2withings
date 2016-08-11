@@ -6,7 +6,7 @@ module Fitbit2withings
     Capybara.javascript_driver = :poltergeist
     Capybara.ignore_hidden_elements = true
     Capybara.run_server = false
-    Capybara.default_wait_time = 60
+    Capybara.default_max_wait_time = 60
 
     def login
       session.visit "https://healthmate.withings.com/"

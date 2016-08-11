@@ -1,6 +1,7 @@
 /.bundle/
 /.yardoc
 /.env
+/.access_token
 /Gemfile.lock
 /_yardoc/
 /coverage/
