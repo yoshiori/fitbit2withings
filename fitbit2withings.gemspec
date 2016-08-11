@@ -7,11 +7,11 @@ Gem::Specification.new do |spec|
   spec.name          = "fitbit2withings"
   spec.version       = Fitbit2withings::VERSION
   spec.authors       = ["Yoshiori SHOJI"]
-  spec.email         = ["yoshiori@cookpad.com"]
+  spec.email         = ["yoshiori@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Weight post to withings from fitbit.}
+  spec.description   = spec.summary
+  spec.homepage      = "https://github.com/yoshiori/fitbit2withings"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
